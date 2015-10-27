@@ -1,7 +1,7 @@
 # scratchduino-RoboKit v0.4
 This repository includes **body, schematics, PCB, documentation and sources** for RoboKit v0.4
 
-#Directories - read as the raw
+#Directories
 * Body - *the body of roboplatform and sensors*
 * Documentation - *the .pdf schematics, etc*
 * Firmware - *the firmware for RoboKit v0.4*
