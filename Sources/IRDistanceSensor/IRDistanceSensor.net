@@ -1,0 +1,53 @@
+(export (version D)
+  (design
+    (source /home/trionprog/ScratchDuino0.4/Sources/IRDistanceSensor/IRDistanceSensor.sch)
+    (date "Вт 27 окт 2015 06:40:10")
+    (tool "eeschema (2013-may-18)-stable"))
+  (components
+    (comp (ref P3)
+      (value SENSOR)
+      (libsource (lib Library) (part SENSOR))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 55D7B367))
+    (comp (ref D1)
+      (value IRDISTANCEWIRE)
+      (libsource (lib Library) (part IRDISTANCEWIRE))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 562EDF95)))
+  (libparts
+    (libpart (lib Library) (part IRDISTANCEWIRE)
+      (fields
+        (field (name Reference) D)
+        (field (name Value) IRDISTANCEWIRE)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name VCC) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name OUT) (type input))))
+    (libpart (lib Library) (part SENSOR)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) SENSOR)
+        (field (name Footprint) ~)
+        (field (name Datasheet) ~))
+      (pins
+        (pin (num 1) (name GND) (type power_in))
+        (pin (num 2) (name VCC) (type power_in))
+        (pin (num 3) (name D) (type BiDi))
+        (pin (num 4) (name A) (type output)))))
+  (libraries
+    (library (logical Library)
+      (uri ../Library/Library.lib)))
+  (nets
+    (net (code 1) (name "")
+      (node (ref P3) (pin 3)))
+    (net (code 2) (name "")
+      (node (ref P3) (pin 2))
+      (node (ref D1) (pin 1)))
+    (net (code 3) (name "")
+      (node (ref P3) (pin 1))
+      (node (ref D1) (pin 2)))
+    (net (code 4) (name "")
+      (node (ref P3) (pin 4))
+      (node (ref D1) (pin 3)))))

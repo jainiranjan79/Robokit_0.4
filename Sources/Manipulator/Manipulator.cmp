@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пт 28 авг 2015 20:40:22
+
+BeginCmp
+TimeStamp = /55DAC236;
+Reference = D1;
+ValeurCmp = SERVO;
+IdModule  = SERVO;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAC245;
+Reference = D2;
+ValeurCmp = SERVO;
+IdModule  = SERVO;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAC268;
+Reference = D3;
+ValeurCmp = SERVO;
+IdModule  = SERVO;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAC226;
+Reference = P1;
+ValeurCmp = IDC-14;
+IdModule  = IDC-14;
+EndCmp
+
+EndListe

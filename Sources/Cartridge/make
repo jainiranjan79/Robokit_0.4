@@ -1,0 +1,76 @@
+#!/bin/sh
+
+#========INFO=========
+#This script distribute Gerber, SVG and PDF files to directories PCB,Documentation
+
+#========HOW TO USE========
+#1)Print the schematic in PDF format
+#2)Print the board in SVG format to PCB directory
+#3)Print the board in Gerber format to PCB directory
+#4)Print drill file of board to PCB directory
+#5)Run this script
+
+
+BOARD="`basename \`pwd\` `"
+SRCDIR="PCB"
+ROOTDIR="../.."
+DOCDIR="${ROOTDIR}/Documentation"
+PCBDIR="${ROOTDIR}/PCB"
+GERBERDIR="${PCBDIR}/Gerber/${BOARD}"
+SVGDIR="${PCBDIR}/SVG/${BOARD}"
+
+if [ ! -d "${SRCDIR}" ]; then
+	echo "no $SRCDIR directory!">&2
+	exit 1
+fi
+
+SRCFILENUM=`find "$SRCDIR" -type f -name "*.pho" | wc -l `
+if (( SRCFILENUM !=9 )); then
+	echo "$SRCDIR must contain 9 .pho(gerber) files!">&2
+	exit 1
+fi
+
+SRCFILENUM=`find "$SRCDIR" -type f -name "*.svg" | wc -l `
+if (( SRCFILENUM !=9 )); then
+	echo "$SRCDIR must contain 9 .svg files!">&2
+	exit 1
+fi
+
+SRCFILENUM=`find "$SRCDIR" -type f -name "*.drl" | wc -l `
+if (( SRCFILENUM !=2 )); then
+	echo "$SRCDIR must contain 2 .drl files!">&2
+	exit 1
+fi
+
+rename .pho .gbr ${SRCDIR}/* 
+rename ${BOARD}-B bottom ${SRCDIR}/* 
+rename ${BOARD}-F top ${SRCDIR}/* 
+rename ${BOARD}.drl drill_with_metallization.gbr ${SRCDIR}/* 
+rename ${BOARD}-NPTH.drl drill_without_metallization.gbr ${SRCDIR}/* 
+rename ${BOARD}-Edge_Cuts.gbr edge.gbr ${SRCDIR}/*
+
+rename ${BOARD}-Edge_Cuts.svg edge.svg ${SRCDIR}/*
+
+if [ ! -d "${GERBERDIR}" ]; then
+	mkdir ${GERBERDIR}
+fi
+
+if [ ! -d "${SVGDIR}" ]; then
+	mkdir ${SVGDIR}
+fi
+
+mv ${SRCDIR}/*.gbr ${PCBDIR}/Gerber/${BOARD}/
+mv ${SRCDIR}/*.svg ${PCBDIR}/SVG/${BOARD}/
+
+if [ -f "${BOARD}.pdf" ]; then
+	mv ${BOARD}.pdf ${DOCDIR}/${BOARD}.pdf
+else
+	echo "File \"${BOARD}.pdf\" does not exists!">&2
+fi
+
+if (( $?==0 )); then
+	echo "Files have been destributed successfuly"
+else
+	echo "ERROR $?"
+	exit $?
+fi

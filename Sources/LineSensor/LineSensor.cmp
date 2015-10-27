@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Вс 25 окт 2015 18:32:11
+
+BeginCmp
+TimeStamp = /562CF4B8;
+Reference = D1;
+ValeurCmp = INFAREDPHOTODIODE;
+IdModule  = TEMD1000;
+EndCmp
+
+BeginCmp
+TimeStamp = /562CF4A9;
+Reference = D2;
+ValeurCmp = INFAREDLED;
+IdModule  = VSMB2000;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A979;
+Reference = P1;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A98A;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7A999;
+Reference = R3;
+ValeurCmp = 100K;
+IdModule  = SMD0805;
+EndCmp
+
+EndListe

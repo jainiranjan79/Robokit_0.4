@@ -1,0 +1,98 @@
+EESchema Schematic File Version 2
+LIBS:Library
+LIBS:LineSensor-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "25 oct 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SENSOR P1
+U 1 1 55D7A979
+P 750 1200
+F 0 "P1" H 900 1750 60  0000 C CNN
+F 1 "SENSOR" V 800 1450 60  0001 C CNN
+F 2 "~" H 750 1200 60  0000 C CNN
+F 3 "~" H 750 1200 60  0000 C CNN
+	1    750  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55D7A98A
+P 1700 1000
+F 0 "R1" V 1780 1000 40  0000 C CNN
+F 1 "100" V 1707 1001 40  0000 C CNN
+F 2 "~" V 1630 1000 30  0000 C CNN
+F 3 "~" H 1700 1000 30  0000 C CNN
+	1    1700 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 55D7A999
+P 2200 800
+F 0 "R3" V 2280 800 40  0000 C CNN
+F 1 "100K" V 2207 801 40  0000 C CNN
+F 2 "~" V 2130 800 30  0000 C CNN
+F 3 "~" H 2200 800 30  0000 C CNN
+	1    2200 800 
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 1350 900 
+$Comp
+L INFAREDLED D2
+U 1 1 562CF4A9
+P 2250 1000
+F 0 "D2" H 2250 1100 50  0000 C CNN
+F 1 "INFAREDLED" H 2250 900 50  0001 C CNN
+F 2 "~" H 2250 1000 60  0000 C CNN
+F 3 "~" H 2250 1000 60  0000 C CNN
+	1    2250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L INFAREDPHOTODIODE D1
+U 1 1 562CF4B8
+P 1700 600
+F 0 "D1" H 1700 800 50  0000 C CNN
+F 1 "INFAREDPHOTODIODE" H 1700 500 50  0001 C CNN
+F 2 "~" H 1700 600 60  0000 C CNN
+F 3 "~" H 1700 600 60  0000 C CNN
+	1    1700 600 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1350 1000 1450 1000
+Wire Wire Line
+	1950 1000 2050 1000
+Wire Wire Line
+	2450 1000 2550 1000
+Wire Wire Line
+	2550 800  2550 1100
+Wire Wire Line
+	2550 1100 1350 1100
+Connection ~ 1400 1000
+Connection ~ 2550 1000
+Wire Wire Line
+	2550 800  2450 800 
+Wire Wire Line
+	1950 800  1350 800 
+Wire Wire Line
+	1500 600  1400 600 
+Wire Wire Line
+	1400 600  1400 1000
+Wire Wire Line
+	1950 600  1900 600 
+Wire Wire Line
+	1950 800  1950 600 
+$EndSCHEMATC

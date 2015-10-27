@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Ср 26 авг 2015 23:13:10
+
+BeginCmp
+TimeStamp = /55D95B0D;
+Reference = D1;
+ValeurCmp = ARDUINO_UNO;
+IdModule  = ARDUINO_SHIELD;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DB6856;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DB6865;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D95B33;
+Reference = P1;
+ValeurCmp = SL-34;
+IdModule  = SL-34_CARTRIDGE;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DB6511;
+Reference = R1;
+ValeurCmp = 5.6k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DB6545;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DB693C;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DE1D1F;
+Reference = SW1;
+ValeurCmp = DS1040-02RN;
+IdModule  = DS1040-02RN;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DC1D14;
+Reference = SW3;
+ValeurCmp = SWT-81-7;
+IdModule  = RSTBUTTON;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D95B7B;
+Reference = U1;
+ValeurCmp = HC-05;
+IdModule  = HC-05;
+EndCmp
+
+EndListe

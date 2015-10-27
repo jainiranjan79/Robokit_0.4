@@ -1,0 +1,94 @@
+EESchema-DOCLIB  Version 2.0  Date: Вт 27 окт 2015 06:39:07
+#
+$CMP 74LVC1G14
+D 74LVC1G14, Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129d/scyt129d.pdf
+$ENDCMP
+#
+$CMP DS1040-02RN
+D SWD4-2
+K SWD4-2
+$ENDCMP
+#
+$CMP HC-05
+D HC-05
+K HC-05
+$ENDCMP
+#
+$CMP IDC-14
+D IDC-14M_SMD
+K IDC-14M
+$ENDCMP
+#
+$CMP IDC-14M_SMD
+D IDC-14M_SMD
+K IDC-14M
+$ENDCMP
+#
+$CMP InfaredLED
+K LED
+$ENDCMP
+#
+$CMP InfaredPhotoDiode
+K LED
+$ENDCMP
+#
+$CMP InfaredPhotoTransistor
+K LED
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP PHOTORESISTOR
+D PHOTORESISTOR2
+$ENDCMP
+#
+$CMP PHOTORESISTOR2
+D PHOTORESISTOR2
+$ENDCMP
+#
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
+$CMP R
+D Resistance
+K R DEV
+$ENDCMP
+#
+$CMP R4
+D Resistance4
+K R4
+$ENDCMP
+#
+$CMP SL-34
+D SL-34
+K SL-34
+$ENDCMP
+#
+$CMP SN74HCT14D
+D 74LVC1G14, Single Schmidt NOT Gate, Low-Voltage CMOS
+K Single Gate NOT Schmidt LVC CMOS
+F http://www.ti.com/lit/sg/scyt129d/scyt129d.pdf
+$ENDCMP
+#
+$CMP SWD1-1
+D SWT-81-7
+K SWT-81-7
+$ENDCMP
+#
+$CMP SWD4-2
+D SWD4-2
+K SWD4-2
+$ENDCMP
+#
+$CMP SWT-81-7
+D SWT-81-7
+K SWT-81-7
+$ENDCMP
+#
+#End Doc Library

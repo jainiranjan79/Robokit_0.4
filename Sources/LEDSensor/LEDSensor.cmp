@@ -1,0 +1,24 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 26 окт 2015 23:59:43
+
+BeginCmp
+TimeStamp = /562E9215;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = KPA3010;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7B367;
+Reference = P3;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /562E9205;
+Reference = R1;
+ValeurCmp = 100;
+IdModule  = SMD0805;
+EndCmp
+
+EndListe

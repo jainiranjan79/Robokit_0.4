@@ -1,0 +1,89 @@
+EESchema Schematic File Version 2
+LIBS:RoboplatformLibrary
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "28 aug 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SENSOR P1
+U 1 1 55D7A979
+P 750 1200
+F 0 "P1" H 900 1750 60  0000 C CNN
+F 1 "SENSOR" V 800 1450 60  0001 C CNN
+F 2 "~" H 750 1200 60  0000 C CNN
+F 3 "~" H 750 1200 60  0000 C CNN
+	1    750  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 55D7A98A
+P 1850 1000
+F 0 "R1" V 1930 1000 40  0000 C CNN
+F 1 "200" V 1857 1001 40  0000 C CNN
+F 2 "~" V 1780 1000 30  0000 C CNN
+F 3 "~" H 1850 1000 30  0000 C CNN
+	1    1850 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R3
+U 1 1 55D7A999
+P 2450 1000
+F 0 "R3" V 2530 1000 40  0000 C CNN
+F 1 "5,6K" V 2457 1001 40  0000 C CNN
+F 2 "~" V 2380 1000 30  0000 C CNN
+F 3 "~" H 2450 1000 30  0000 C CNN
+	1    2450 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L QRD1114 D3
+U 1 1 55D7AA6B
+P 2500 1400
+F 0 "D3" H 2500 1100 60  0000 C CNN
+F 1 "QRD1114" H 2500 1700 60  0000 C CNN
+F 2 "" H 2500 1400 60  0000 C CNN
+F 3 "" H 2500 1400 60  0000 C CNN
+	1    2500 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1350 900 
+Wire Wire Line
+	1350 1000 1600 1000
+Wire Wire Line
+	2100 1000 2200 1000
+Connection ~ 2150 1000
+Wire Wire Line
+	2700 1000 2800 1000
+Wire Wire Line
+	2800 1000 2800 800 
+Wire Wire Line
+	2800 800  1350 800 
+Wire Wire Line
+	2150 1250 2150 1000
+Wire Wire Line
+	2150 1450 1950 1450
+Wire Wire Line
+	1950 1450 1950 800 
+Connection ~ 1950 800 
+Wire Wire Line
+	2150 1350 1700 1350
+Wire Wire Line
+	1700 1100 1700 1550
+Wire Wire Line
+	1700 1550 2150 1550
+Wire Wire Line
+	1700 1100 1350 1100
+Connection ~ 1700 1350
+$EndSCHEMATC

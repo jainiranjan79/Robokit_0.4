@@ -1,0 +1,290 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 24 авг 2015 10:03:02
+
+BeginCmp
+TimeStamp = /5564ABEC;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564ABF2;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /556623F2;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564B6A6;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564B6AC;
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = LED-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BEF7E6;
+Reference = D6;
+ValeurCmp = KTIR0711S;
+IdModule  = KTIR0711S;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BEF7D7;
+Reference = D7;
+ValeurCmp = KTIR0711S;
+IdModule  = KTIR0711S;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BFB7FF;
+Reference = K1;
+ValeurCmp = KRONA;
+IdModule  = KRONA;
+EndCmp
+
+BeginCmp
+TimeStamp = /55DAC56F;
+Reference = P1;
+ValeurCmp = IDC-14;
+IdModule  = IDC-14M_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564A382;
+Reference = P2;
+ValeurCmp = SL-34;
+IdModule  = SL-34_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564BCA5;
+Reference = P3;
+ValeurCmp = MOTOR;
+IdModule  = MOTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661900;
+Reference = P6;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661928;
+Reference = P7;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564A457;
+Reference = P8;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564A594;
+Reference = P9;
+ValeurCmp = POWER;
+IdModule  = POWER;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661950;
+Reference = P10;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5570A06F;
+Reference = P11;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR_SOCKET;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564BCDB;
+Reference = P12;
+ValeurCmp = MOTOR;
+IdModule  = MOTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C0D4AE;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564AFCD;
+Reference = R2;
+ValeurCmp = 10k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564ACB5;
+Reference = R3;
+ValeurCmp = 1k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564B0BE;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661919;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661941;
+Reference = R6;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661600;
+Reference = R7;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564BA9B;
+Reference = R8;
+ValeurCmp = 10k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /556623EC;
+Reference = R9;
+ValeurCmp = 1k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564B6B2;
+Reference = R10;
+ValeurCmp = 1k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661969;
+Reference = R11;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55661991;
+Reference = R12;
+ValeurCmp = 100k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5564BA85;
+Reference = R13;
+ValeurCmp = 10k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BEF80B;
+Reference = R14;
+ValeurCmp = 200;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BEF81A;
+Reference = R15;
+ValeurCmp = 200;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF1F0A;
+Reference = R16;
+ValeurCmp = 750k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF1EFB;
+Reference = R17;
+ValeurCmp = 750k;
+IdModule  = SMD0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF0100;
+Reference = RV1;
+ValeurCmp = 50k;
+IdModule  = 3314G-1-503E;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF0114;
+Reference = RV2;
+ValeurCmp = 50k;
+IdModule  = 3314G-1-503E;
+EndCmp
+
+BeginCmp
+TimeStamp = /55C0D486;
+Reference = SW1;
+ValeurCmp = SWT-81-7;
+IdModule  = SWT-81-7;
+EndCmp
+
+BeginCmp
+TimeStamp = /554A5189;
+Reference = U1;
+ValeurCmp = 74HC00D;
+IdModule  = SOIC-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /55602E9C;
+Reference = U2;
+ValeurCmp = L293DD;
+IdModule  = SO20;
+EndCmp
+
+BeginCmp
+TimeStamp = /55BF1464;
+Reference = U3;
+ValeurCmp = SN74HCT14D;
+IdModule  = SOIC-14;
+EndCmp
+
+EndListe

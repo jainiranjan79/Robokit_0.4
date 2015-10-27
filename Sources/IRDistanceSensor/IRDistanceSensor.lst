@@ -1,0 +1,12 @@
+eeschema (2013-may-18)-stable  >> Creation date: Вт 27 окт 2015 06:40:30
+#Cmp ( order = Reference )
+| D1         IRDISTANCEWIRE
+| P3         SENSOR      
+#End Cmp
+
+#Cmp ( порядок = Значение )
+| IRDISTANCEWIRE D1        
+| SENSOR       P3        
+#End Cmp
+
+#End List

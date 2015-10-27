@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Пн 26 окт 2015 23:38:21
+
+BeginCmp
+TimeStamp = /562E8E1E;
+Reference = P1;
+ValeurCmp = SENSORJACK;
+IdModule  = SENSOR_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /55D7B367;
+Reference = P3;
+ValeurCmp = SENSOR;
+IdModule  = SENSOR;
+EndCmp
+
+EndListe

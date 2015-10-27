@@ -1,0 +1,80 @@
+EESchema Schematic File Version 2
+LIBS:Library
+LIBS:JackSensor-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "noname.sch"
+Date "25 oct 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SENSOR P3
+U 1 1 55D7B367
+P 600 1200
+F 0 "P3" H 750 1750 60  0000 C CNN
+F 1 "SENSOR" V 650 1450 60  0001 C CNN
+F 2 "~" H 600 1200 60  0000 C CNN
+F 3 "~" H 600 1200 60  0000 C CNN
+	1    600  1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SENSOR P1
+U 1 1 562D4F80
+P 1500 1250
+F 0 "P1" H 1650 1800 60  0000 C CNN
+F 1 "SENSOR" V 1550 1500 60  0001 C CNN
+F 2 "~" H 1500 1250 60  0000 C CNN
+F 3 "~" H 1500 1250 60  0000 C CNN
+	1    1500 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 850  2150 850 
+Wire Wire Line
+	2150 850  2150 650 
+Wire Wire Line
+	2150 650  1250 650 
+Wire Wire Line
+	1250 650  1250 800 
+Wire Wire Line
+	1250 800  1200 800 
+Wire Wire Line
+	2100 950  2200 950 
+Wire Wire Line
+	2200 950  2200 600 
+Wire Wire Line
+	2200 600  1300 600 
+Wire Wire Line
+	1300 600  1300 900 
+Wire Wire Line
+	1300 900  1200 900 
+Wire Wire Line
+	2100 1050 2250 1050
+Wire Wire Line
+	2250 1050 2250 550 
+Wire Wire Line
+	2250 550  1350 550 
+Wire Wire Line
+	1350 550  1350 1000
+Wire Wire Line
+	1350 1000 1200 1000
+Wire Wire Line
+	2100 1150 2300 1150
+Wire Wire Line
+	2300 1150 2300 500 
+Wire Wire Line
+	2300 500  1400 500 
+Wire Wire Line
+	1400 500  1400 1100
+Wire Wire Line
+	1400 1100 1200 1100
+$EndSCHEMATC
