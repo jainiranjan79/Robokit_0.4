@@ -37,8 +37,8 @@ if (( SRCFILENUM !=9 )); then
 fi
 
 SRCFILENUM=`find "$SRCDIR" -type f -name "*.drl" | wc -l `
-if (( SRCFILENUM !=1 )); then
-	echo "$SRCDIR must contain 1 .drl files!">&2
+if (( SRCFILENUM !=2 )); then
+	echo "$SRCDIR must contain 2 .drl files!">&2
 	exit 1
 fi
 
